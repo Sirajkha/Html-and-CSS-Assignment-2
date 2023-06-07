@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+
+}
+.logo{
+    padding-left: 50px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    align-items:center;
+    padding-right: 6in;
+    gap: 25px;
+    font-size: medium;
+    font-weight: 300;
+}
+.list li{
+    cursor: pointer;
+}
+.list li:hover{
+    color:hsl(243, 38%, 52%) ;
+}
+
+.button-top{
+margin-right: 20px;
+padding: 12px 25px;
+background-color: hsl(243, 38%, 52%);
+color: white;
+border-radius: 10px;
+font-weight: 400;
+cursor: pointer;
+border: none;
+}
+
+/* Hero section */
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-left{
+padding: 40px;
+margin-bottom: 40px;
+}
+.heading{
+    font-size: 50px;
+    font-style: normal;
+    color: hsl(256, 34%, 28%);
+    line-height: 65px;
+    margin-top:0px;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.heading span{
+    color: hsl(243, 38%, 52%);
+}
+.discription{
+    margin-top: 25px;
+    color:  hsl(0, 0%, 51%);
+    font-weight: 200;
+    font-size: 12px;
+}
+.button-down{
+margin-top: 100px;
+padding: 12px 22px;
+background-color:hsl(243, 38%, 52%);
+color: white;
+font-weight: 400;
+border-radius: 10px;
+cursor: pointer;
+border: none;
+}
